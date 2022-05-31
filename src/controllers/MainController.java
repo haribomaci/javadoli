@@ -3,7 +3,7 @@
 * Author: Tóth Júlia
 * Copyright: 2022, Tóth Júlia
 * Group: Szoft 1/n
-* Date: 2021-09-03
+* Date: 2022-05-31
 * Github: https://github.com/haribomaci/
 * Licenc: GNU GPL
 */

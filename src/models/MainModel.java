@@ -1,23 +1,33 @@
+/*
+* File: MainModel.java
+* Author: Tóth Júlia
+* Copyright: 2022, Tóth Júlia
+* Group: Szoft 1/n
+* Date: 2022-05-31
+* Github: https://github.com/haribomaci/
+* Licenc: GNU GPL
+*/
+
 package models;
 
 import java.util.Arrays;
 import java.util.Vector;
 
 public class MainModel {
-    beo[] groupArray = {
-        new beo(1, "Szerelő"),
-        new beo(2, "Postás"),
-        new beo(3, "Takarító"),
-        new beo(4, "Informatikus"),
-        new beo(5, "Újságíró"),
-        new beo(6, "Tanár"),
-        new beo(7, "Szakács"),
-        new beo(8, "Gépész"),
-        new beo(9, "Eladó"),
-        new beo(10, "Búvár"),
+    Beo[] groupArray = {
+        new Beo(1, "Szerelő"),
+        new Beo(2, "Postás"),
+        new Beo(3, "Takarító"),
+        new Beo(4, "Informatikus"),
+        new Beo(5, "Újságíró"),
+        new Beo(6, "Tanár"),
+        new Beo(7, "Szakács"),
+        new Beo(8, "Gépész"),
+        new Beo(9, "Eladó"),
+        new Beo(10, "Búvár"),
 
     };
-    public Vector<beo> groupList = new Vector<>(Arrays.asList(groupArray));
+    public Vector<Beo> groupList = new Vector<>(Arrays.asList(groupArray));
     Worker[]workerArray={//csináltunk egy listát és definiáltuk hogy mi van benne
         new Worker(1, "Takáts Máté", 5),
         new Worker(2, "Sípos Zoltán", 4),
