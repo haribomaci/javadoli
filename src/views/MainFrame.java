@@ -42,6 +42,7 @@ public class MainFrame extends JFrame {
     private void setMainFrame() {
         this.add(this.mainPanel);
         this.setLayout(new FlowLayout());
+        this.setTitle("2022-05-31, Tóth Júlia, szoft 1/n");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(300, 400);
         this.setVisible(true);

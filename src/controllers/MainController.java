@@ -1,7 +1,16 @@
+/*
+* File: MainController.java
+* Author: Tóth Júlia
+* Copyright: 2022, Tóth Júlia
+* Group: Szoft 1/n
+* Date: 2021-09-03
+* Github: https://github.com/haribomaci/
+* Licenc: GNU GPL
+*/
+
 package controllers;
 
 import models.MainModel;
-import models.Worker;
 import views.MainFrame;
 
 public class MainController {
@@ -25,10 +34,10 @@ public class MainController {
         int index = this.mainFrame.groupCombo.getSelectedIndex();
         int selectedgroupId = index;
         this.mainFrame.workerModel.clear();
-        this.mainModel.workerList.forEach(student -> {
-            if(selectedgroupId == .groupId){
+        this.mainModel.workerList.forEach(worker -> {
+            if(selectedgroupId == worker.groupId){
             //System.out.println(student.name);
-            this.mainFrame.workerModel.addElement(student.name);
+            this.mainFrame.workerModel.addElement(worker.name);
 
 
             }
